@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{clear: both;}
+
+header {
+    background: #3665af;
+    padding: 8px 0;
+}
+
+.logo {
+    float: left;
+    color: white;
+}
+
+.logo h2{
+    font-size: 29px;
+    font-weight: 700;
+}
+
+form.form-login {
+    float: right;
+}
+
+.form-login .form-element {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.form-element p {
+    color: white;
+    font-size: 14px;
+}
+
+.form-element input[type=email],
+.form-element input[type=password] {
+    margin-top: 4px;
+    border: 0;
+    height: 22px;
+    padding-left: 3px;
+}
+
+.form-element input[type=submit] {
+    cursor: pointer;
+    border: 0;
+    background: #1969e5;
+    border: 2px solid #215ab2;
+    color: white;
+    padding: 3px 5px;
+}
+
+.form-element input[type=submit]:hover {
+    background: #215ab2;
+}
+
+section.main {
+    background: linear-gradient(white, #d3D8E8);
+    padding: 40px 0;
+}
+
+.img-pessoas {
+    float: left;
+    width: 60%;
+}
+
+.img-pessoas img {
+    max-width: 100%;
+}
+
+.abrir-conta {
+    width: 40%;
+    float: left;
+}
+
+.abrir-conta h2 {
+    color: black;
+    font-size: 35px;
+}
+
+.abrir-conta h3 {
+    font-size: 19px;
+    color: rgb(30, 30, 30);
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+form.criar-conta {
+    margin-top: 10px;
+}
+
+.w50 {
+    width: 50%;
+    padding: 0 5px;
+    float: left;
+}
+
+.w100 {
+    width: 100%;
+    padding: 0 5px;
+    float: left;
+}
+
+form.criar-conta input {
+    width: 100%;
+    margin-top: 8px;
+}
+
+form.criar-conta input[type=email],
+form.criar-conta input[type=text],
+form.criar-conta input[type=password] {
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px solid #a5dcff;
+    border-radius: 8px;
+}
+
+form.criar-conta input[type=submit] {
+    height: 40px;
+    background: linear-gradient(#67ae55, #578843);
+    color: white;
+    cursor: pointer;
+    border: 0;
+    max-width: 200px;
+    font-size: 19px;
+}
+
+form.criar-conta input[type=submit]:hover {
+    background: #86ca6a;
+    color: white;
+}
+
+form .w100 h2 {
+    margin-top: 10px;
+    color: #1d2129;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+form select.nascimento {
+    float: left;
+    margin-top: 5px;
+}
+
+.input-radio {
+    margin: 6px 10px;
+    float: left;
+
+}
+
+.input-radio h2 {
+    display: inline-block;
+}
+
+.input-radio input[type=radio] {
+    width: auto !important;
+    display: inline-block;
+}
+
+section.linguas {
+    padding: 30px 0;
+    background: white;
+}
+
+section.linguas a {
+    padding-right: 15px;
+    font-size: 12px;
+    color: #365899;
+    text-decoration: none;
+}
+
+section.linguas a.selected-lingua {
+    color: #737373;
+}
+
+section.linguas .center {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+@media screend and (mad-width: 768px) {
+    .logo {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    form.form-login {
+        margin-top: 17px;
+        float: none;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .form-login .form-element {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .form-element p {
+        color: white;
+        font-size: 14px;
+    }
+    
+    .form-element input[type=email],
+    .form-element input[type=password] {
+        margin-top: 4px;
+        border: 0;
+        height: 22px;
+        padding-left: 3px;
+        width: 100%;
+        max-width: 320px;
+    }
+    .form-element input[type=submit] {
+        width: 140px;
+    }
+    .img-pessoas {
+        display: none;
+    }
+    .abrir-conta {
+        width: 100%;
+    }
+}
